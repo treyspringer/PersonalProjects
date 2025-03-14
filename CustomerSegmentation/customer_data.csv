@@ -1,0 +1,41 @@
+CustomerID,Name,Age,Gender,Email,Phone,City,Country,Total Purchases,Last Purchase Date,Preferred Category,Loyalty Points,Annual Income (k$),Spending Score (1-100)
+1001,Alice Smith,28,Female,alice.smith@email.com,555-1234,New York,USA,5,2024-02-15,Electronics,1200,85,45
+1002,Bob Johnson,35,Male,bob.j@email.com,555-5678,Chicago,USA,12,2024-03-10,Clothing,3200,65,80
+1003,Charlie Lee,42,Male,charlie.lee@email.com,555-8765,San Diego,USA,8,2024-01-28,Home & Garden,1800,70,55
+1004,Diana Miller,31,Female,diana.m@email.com,555-4321,Boston,USA,15,2024-04-05,Beauty,5000,90,70
+1005,Ethan Brown,22,Male,ethan.b@email.com,555-1111,Dallas,USA,3,2024-02-20,Books,600,40,30
+1006,Grace Davis,29,Female,grace.d@email.com,555-2222,Miami,USA,7,2024-03-15,Toys,1500,75,50
+1007,Henry White,38,Male,henry.w@email.com,555-3333,Seattle,USA,10,2024-02-25,Food & Beverage,2000,60,60
+1008,Isabella Moore,27,Female,isabella.m@email.com,555-4444,Los Angeles,USA,14,2024-01-18,Health & Wellness,2700,80,65
+1009,Jack Taylor,40,Male,jack.t@email.com,555-5555,Chicago,USA,11,2024-04-02,Sports,2200,72,75
+1010,Katherine Garcia,34,Female,katherine.g@email.com,555-6666,San Francisco,USA,9,2024-03-22,Electronics,3200,85,85
+1011,Liam Martinez,26,Male,liam.m@email.com,555-7777,Miami,USA,5,2024-02-10,Clothing,1500,50,40
+1012,Mia Robinson,33,Female,mia.r@email.com,555-8888,Boston,USA,16,2024-01-12,Home & Garden,4000,92,60
+1013,Noah Perez,45,Male,noah.p@email.com,555-9999,Seattle,USA,18,2024-03-29,Beauty,4500,95,90
+1014,Olivia Lee,39,Female,olivia.l@email.com,555-1010,New York,USA,13,2024-02-05,Toys,2100,78,65
+1015,Paul Young,50,Male,paul.y@email.com,555-2020,San Diego,USA,6,2024-03-17,Books,1000,50,55
+1016,Quinn Harris,30,Female,quinn.h@email.com,555-3030,Dallas,USA,4,2024-01-08,Sports,800,45,40
+1017,Rachel Scott,25,Female,rachel.s@email.com,555-4040,Chicago,USA,8,2024-04-07,Health & Wellness,1800,65,50
+1018,Samuel Clark,32,Male,samuel.c@email.com,555-5050,Miami,USA,10,2024-03-14,Food & Beverage,2500,70,80
+1019,Tracy Lewis,28,Female,tracy.l@email.com,555-6060,Los Angeles,USA,17,2024-02-28,Clothing,3800,90,85
+1020,Victor King,41,Male,victor.k@email.com,555-7070,San Francisco,USA,12,2024-03-30,Electronics,3100,85,75
+1021,William Adams,33,Male,william.a@email.com,555-8080,New York,USA,5,2024-02-12,Home & Garden,1600,60,50
+1022,Alexa Carter,26,Female,alexa.c@email.com,555-9090,Los Angeles,USA,9,2024-03-01,Beauty,2500,75,70
+1023,Matthew Harris,41,Male,matthew.h@email.com,555-0101,Chicago,USA,7,2024-01-14,Clothing,1400,55,40
+1024,Avery Bennett,38,Female,avery.b@email.com,555-1112,San Francisco,USA,14,2024-03-13,Sports,2200,80,85
+1025,Luke Foster,30,Male,luke.f@email.com,555-2223,Seattle,USA,6,2024-02-22,Electronics,1200,65,60
+1026,Chloe Murphy,27,Female,chloe.m@email.com,555-3334,Miami,USA,8,2024-01-30,Food & Beverage,2000,70,50
+1027,James Walker,35,Male,james.w@email.com,555-4445,Boston,USA,16,2024-03-18,Health & Wellness,4500,90,95
+1028,Amelia Collins,29,Female,amelia.c@email.com,555-5556,San Diego,USA,10,2024-02-10,Beauty,2700,85,80
+1029,Jackie Thomas,43,Female,jackie.t@email.com,555-6667,Dallas,USA,12,2024-03-25,Toys,1800,65,60
+1030,Oliver King,31,Male,oliver.k@email.com,555-7778,Los Angeles,USA,9,2024-01-05,Books,1700,55,45
+1031,Sophia White,40,Female,sophia.w@email.com,555-8889,New York,USA,11,2024-02-17,Clothing,2500,75,70
+1032,Lucas Allen,36,Male,lucas.a@email.com,555-9990,San Francisco,USA,7,2024-03-02,Home & Garden,2100,65,50
+1033,Emily Wright,28,Female,emily.w@email.com,555-1011,Chicago,USA,13,2024-03-06,Food & Beverage,3300,85,80
+1034,Nathaniel Scott,39,Male,nathaniel.s@email.com,555-2022,Seattle,USA,15,2024-02-08,Beauty,3900,92,85
+1035,Ella Nelson,27,Female,ella.n@email.com,555-3033,Miami,USA,6,2024-03-20,Electronics,1300,60,55
+1036,David Green,50,Male,david.g@email.com,555-4044,San Diego,USA,9,2024-01-25,Sports,1600,60,50
+1037,Ava Perez,32,Female,ava.p@email.com,555-5055,Boston,USA,14,2024-02-12,Toys,2800,88,90
+1038,Isaac Lewis,41,Male,isaac.l@email.com,555-6066,Los Angeles,USA,8,2024-03-10,Books,1500,55,45
+1039,Zoe Harris,29,Female,zoe.h@email.com,555-7077,San Francisco,USA,10,2024-02-28,Health & Wellness,2300,75,60
+1040,Henry Martin,34,Male,henry.m@email.com,555-8088,New York,USA,11,2024-03-15,Clothing,1900,65,70
