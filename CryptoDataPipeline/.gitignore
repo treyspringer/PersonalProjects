@@ -1,0 +1,6 @@
+# .gitignore  
+/data/*.db               # Exclude SQLite databases  
+/logs/                   # Exclude log files  
+__pycache__/  
+.env                     # Exclude API keys  
+*.pyc  

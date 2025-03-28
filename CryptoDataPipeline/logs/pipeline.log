@@ -1,0 +1,471 @@
+2025-03-28 10:59:53,002 - INFO - Pipeline started
+2025-03-28 10:59:53,235 - INFO - Pipeline finished successfully
+2025-03-28 10:59:53,236 - INFO - Scheduler started
+2025-03-28 11:00:03,240 - INFO - Pipeline started
+2025-03-28 11:00:03,358 - INFO - Pipeline finished successfully
+2025-03-28 11:00:13,363 - INFO - Pipeline started
+2025-03-28 11:00:13,479 - INFO - Pipeline finished successfully
+2025-03-28 11:00:23,484 - INFO - Pipeline started
+2025-03-28 11:00:23,716 - INFO - Pipeline finished successfully
+2025-03-28 11:00:33,721 - INFO - Pipeline started
+2025-03-28 11:00:33,849 - INFO - Pipeline finished successfully
+2025-03-28 11:00:43,853 - INFO - Pipeline started
+2025-03-28 11:00:44,002 - INFO - Pipeline finished successfully
+2025-03-28 11:00:54,006 - INFO - Pipeline started
+2025-03-28 11:00:54,110 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:01:04,180 - INFO - Pipeline started
+2025-03-28 11:01:04,274 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:01:14,282 - INFO - Pipeline started
+2025-03-28 11:01:14,369 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:01:24,373 - INFO - Pipeline started
+2025-03-28 11:01:24,441 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:01:34,449 - INFO - Pipeline started
+2025-03-28 11:01:34,553 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:01:44,559 - INFO - Pipeline started
+2025-03-28 11:01:44,656 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:01:54,662 - INFO - Pipeline started
+2025-03-28 11:01:54,883 - INFO - Pipeline finished successfully
+2025-03-28 11:02:04,888 - INFO - Pipeline started
+2025-03-28 11:02:05,035 - INFO - Pipeline finished successfully
+2025-03-28 11:02:15,039 - INFO - Pipeline started
+2025-03-28 11:02:15,279 - INFO - Pipeline finished successfully
+2025-03-28 11:02:25,284 - INFO - Pipeline started
+2025-03-28 11:02:25,624 - INFO - Pipeline finished successfully
+2025-03-28 11:02:35,628 - INFO - Pipeline started
+2025-03-28 11:02:35,778 - INFO - Pipeline finished successfully
+2025-03-28 11:02:45,782 - INFO - Pipeline started
+2025-03-28 11:02:45,920 - INFO - Pipeline finished successfully
+2025-03-28 11:02:55,924 - INFO - Pipeline started
+2025-03-28 11:02:56,037 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:03:06,044 - INFO - Pipeline started
+2025-03-28 11:03:06,136 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:03:16,145 - INFO - Pipeline started
+2025-03-28 11:03:16,241 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:03:26,248 - INFO - Pipeline started
+2025-03-28 11:03:26,359 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:03:36,365 - INFO - Pipeline started
+2025-03-28 11:03:36,447 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:03:46,452 - INFO - Pipeline started
+2025-03-28 11:03:46,540 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:03:56,546 - INFO - Pipeline started
+2025-03-28 11:03:56,742 - INFO - Pipeline finished successfully
+2025-03-28 11:04:06,747 - INFO - Pipeline started
+2025-03-28 11:04:06,953 - INFO - Pipeline finished successfully
+2025-03-28 11:04:16,958 - INFO - Pipeline started
+2025-03-28 11:04:17,114 - INFO - Pipeline finished successfully
+2025-03-28 11:04:27,118 - INFO - Pipeline started
+2025-03-28 11:04:27,264 - INFO - Pipeline finished successfully
+2025-03-28 11:04:37,268 - INFO - Pipeline started
+2025-03-28 11:04:37,405 - INFO - Pipeline finished successfully
+2025-03-28 11:04:47,410 - INFO - Pipeline started
+2025-03-28 11:04:47,565 - INFO - Pipeline finished successfully
+2025-03-28 11:04:57,568 - INFO - Pipeline started
+2025-03-28 11:04:57,671 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:05:07,675 - INFO - Pipeline started
+2025-03-28 11:05:07,771 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:05:17,778 - INFO - Pipeline started
+2025-03-28 11:05:17,871 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:05:27,878 - INFO - Pipeline started
+2025-03-28 11:05:27,971 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:05:37,976 - INFO - Pipeline started
+2025-03-28 11:05:38,063 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:05:48,068 - INFO - Pipeline started
+2025-03-28 11:05:48,157 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:05:58,163 - INFO - Pipeline started
+2025-03-28 11:05:58,299 - INFO - Pipeline finished successfully
+2025-03-28 11:06:08,303 - INFO - Pipeline started
+2025-03-28 11:06:08,425 - INFO - Pipeline finished successfully
+2025-03-28 11:06:18,430 - INFO - Pipeline started
+2025-03-28 11:06:18,667 - INFO - Pipeline finished successfully
+2025-03-28 11:06:28,671 - INFO - Pipeline started
+2025-03-28 11:06:28,888 - INFO - Pipeline finished successfully
+2025-03-28 11:06:38,892 - INFO - Pipeline started
+2025-03-28 11:06:39,050 - INFO - Pipeline finished successfully
+2025-03-28 11:06:49,054 - INFO - Pipeline started
+2025-03-28 11:06:49,323 - INFO - Pipeline finished successfully
+2025-03-28 11:06:59,327 - INFO - Pipeline started
+2025-03-28 11:06:59,421 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:07:09,428 - INFO - Pipeline started
+2025-03-28 11:07:09,518 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:07:19,526 - INFO - Pipeline started
+2025-03-28 11:07:19,623 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:07:29,629 - INFO - Pipeline started
+2025-03-28 11:07:29,707 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:07:39,712 - INFO - Pipeline started
+2025-03-28 11:07:39,805 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:07:49,813 - INFO - Pipeline started
+2025-03-28 11:07:49,892 - ERROR - Pipeline failed: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\run_pipeline.py", line 21, in run_pipeline
+    cleaned_data = clean_data(raw_data)  # Pass the DataFrame here
+  File "C:\Users\tcspr\OneDrive\Desktop\Projects\PersonalProjects\CryptoDataPipeline\clean_data.py", line 6, in clean_data
+    df = df[columns]
+         ~~^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tcspr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['id', 'symbol', 'name', 'current_price', 'market_cap',\n       'price_change_percentage_24h'],\n      dtype='object')] are in the [columns]"
+2025-03-28 11:07:59,902 - INFO - Pipeline started
+2025-03-28 11:08:00,114 - INFO - Pipeline finished successfully
+2025-03-28 11:08:10,118 - INFO - Pipeline started
+2025-03-28 11:08:10,334 - INFO - Pipeline finished successfully
+2025-03-28 11:08:20,338 - INFO - Pipeline started
+2025-03-28 11:08:20,536 - INFO - Pipeline finished successfully
+2025-03-28 11:08:30,539 - INFO - Pipeline started
+2025-03-28 11:08:30,708 - INFO - Pipeline finished successfully
+2025-03-28 11:08:40,712 - INFO - Pipeline started
+2025-03-28 11:08:40,837 - INFO - Pipeline finished successfully
+2025-03-28 11:08:50,842 - INFO - Pipeline started
+2025-03-28 11:08:50,972 - INFO - Pipeline finished successfully
+2025-03-28 11:09:00,977 - INFO - Pipeline started
+2025-03-28 11:09:01,216 - INFO - Pipeline finished successfully
