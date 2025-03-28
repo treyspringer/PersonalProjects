@@ -1,13 +1,13 @@
 # Crypto Data Pipeline  
 Automated pipeline to fetch, clean, and visualize cryptocurrency data using Python and Streamlit.  
 
-## 🚀 Features  
+## Features  
 - **Data Collection**: Fetches real-time prices from CoinGecko API  
 - **Processing**: Cleans and stores data in SQLite  
 - **Dashboard**: Interactive visualizations with Streamlit and Plotly  
 - **Scheduling**: Runs autonomously with error handling  
 
-## ⚙️ Setup  
+## Setup  
 1. Clone the repo:  
    ```bash  
    git clone https://github.com/your-username/CryptoDataPipeline.git  
